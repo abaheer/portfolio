@@ -43,6 +43,50 @@ export default function Home() {
           </div>
       </section>
 
+      <section className="bg-gray-800 min-w-screen min-h-screen font-inter">
+        <div className="text-center p-8 text-4xl font-extrabold">
+          <h1>PROJECTS</h1>
+        </div>
+
+        <a href="https://github.com/abaheer/yt-to-drive" target="_blank">
+          <div className="p-5 m-5 shadow-lg bg-gradient-to-l from-gray-800 to-gray-900 ">
+            <h1 className="font-medium text-2xl text-center">dlpToDrive (Python/Tkinter/GoogleAuth)</h1>
+            <h2 className="mt-3"> 
+              dlpToDrive is a simple graphical interface I made for yt-dlp. 
+              It allows users to download videos or playlists to their computer or google drive by utilizing Google Auth.
+            </h2>
+            <div className="flex justify-center text-5xl p-5 gap-5">
+                <AiFillGithub/>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://github.com/abaheer/scrape-project" target="_blank">
+          <div className="p-5 m-5 shadow-lg bg-gradient-to-l from-gray-800 to-gray-900 ">
+            <h1 className="font-medium text-2xl text-center">GamerPay Scraper (Python/Selenium)</h1>
+            <h2 className="mt-3"> 
+              This is a script that scrapes the website GamerPay.gg and notes listings in a CSV file. The script can also send an email to the user containing details about new listings.
+            </h2>
+            <div className="flex justify-center text-5xl p-5 gap-5">
+                <AiFillGithub/>
+            </div>
+          </div>
+        </a>
+        
+        <a href="https://github.com/abaheer/scrape-project" target="_blank">
+          <div className="p-5 m-5 shadow-lg bg-gradient-to-l from-gray-800 to-gray-900 ">
+            <h1 className="font-medium text-2xl text-center">GamerPay Scraper (Python/Selenium)</h1>
+            <h2 className="mt-3"> 
+              This is a script that scrapes the website GamerPay.gg and notes listings in a CSV file. The script can also send an email to the user containing details about new listings.
+            </h2>
+            <div className="flex justify-center text-5xl p-5 gap-5">
+                <AiFillGithub/>
+            </div>
+          </div>
+        </a>
+
+      </section>
+
     </main>
     </div>
   );
