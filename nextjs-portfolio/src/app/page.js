@@ -65,11 +65,12 @@ export default function Home() {
 
             <p className="leading-5 mt-2 lg:text-xl text-left m-10">
               Hi, I'm Baheer! I am deeply intrigued by software development and
-              automation tools. My passion lies in creating automation tools and
-              crafting solutions that enhance efficiency. With a strong
-              background in software and web development, I immerse myself in
-              designing innovative applications and systems that streamline
-              processes and solve everyday challenges.
+              task automation. In particular, I enjoy developing solutions to
+              save time for my friends and me and improve our quality of life.
+              With a solid software and web development background, I hope to
+              contribute to practical solutions on a larger scale. Regarding
+              creative pursuits and other hobbies, I have dabbled in some music
+              production and video editing.
             </p>
           </div>
         </section>
