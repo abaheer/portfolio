@@ -1,3 +1,5 @@
+"use client";
+
 export default function Navbar() {
   return (
     <nav className="border-gray-200 bg-gray-800">
@@ -7,7 +9,15 @@ export default function Navbar() {
         </h1>
         <ul className="flex flex-col p-2 text-white pr-8 font-medium">
           <li className="sm:inline-block">
-            <a href="#">Projects</a>
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault();
+                window.location.replace("/#my-projects");
+              }}
+            >
+              Projects
+            </a>
           </li>
         </ul>
       </div>
