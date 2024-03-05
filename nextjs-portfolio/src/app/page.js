@@ -22,20 +22,20 @@ export default function Home() {
         <title>Baheer Ahmadzai</title>
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1.0"
-        ></meta>
+          content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover"
+        />
       </Head>
 
-      <main className="min-w-screen min-h-screen font-inter md:ml-20 md:mr-20 xl:ml-60 xl:mr-60">
+      <main className="min-w-screen min-h-screen font-inter md:ml-20 md:mr-20 lg:mr-36 lg:ml:36 xl:mr-44 xl:ml-44 2xl:ml-80 2xl:mr-80">
         <section className="min-w-screen min-h-screen">
           <Navbar />
 
           <div className="text-center p-12 leading-10">
             <div className=" py-4">
-              <h1 className="text-4xl font-extrabold font bg-gradient-to-r from-sky-600 to-sky-400 text-transparent bg-clip-text">
+              <h1 className="text-4xl font-extrabold font bg-gradient-to-r from-sky-600 to-sky-400 text-transparent bg-clip-text lg:text-6xl">
                 Baheer Ahmadzai
               </h1>
-              <h3 className="text-l text-white ml-1">
+              <h3 className="text-l text-white ml-1 lg:text-xl">
                 Degree in <span className="font-bold">Computer Science</span> at
                 UoA
               </h3>
@@ -52,12 +52,18 @@ export default function Home() {
             </div>
 
             <div className="flex justify-center text-5xl p-5 gap-5">
-              <AiFillGithub />
-              <AiFillLinkedin />
-              <AiOutlineMail />
+              <a href="https://github.com/abaheer" target="_blank">
+                <AiFillGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/baheer-ahmadzai-0568b02b8/"
+                target="_blank"
+              >
+                <AiFillLinkedin />
+              </a>
             </div>
 
-            <p className="leading-5 mt-2">
+            <p className="leading-5 mt-2 lg:text-xl text-left m-10">
               Hi, I'm Baheer! I am deeply intrigued by software development and
               automation tools. My passion lies in creating automation tools and
               crafting solutions that enhance efficiency. With a strong
@@ -81,7 +87,7 @@ export default function Home() {
               link="https://github.com/abaheer/yt-to-drive"
               desc="dlpToDrive is a simple graphical interface I made for yt-dlp. 
                       It allows users to download videos or playlists to their computer or 
-                      google drive by utilizing Google Auth."
+                      Google Drive by utilizing Google Authentication."
               logos={[<AiFillGithub />, <SiPython />, <SiGoogledrive />]}
             />
 
@@ -90,16 +96,16 @@ export default function Home() {
               link="https://github.com/abaheer/scrape-project"
               desc="This is a script that scrapes the website GamerPay.gg and notes listings in a 
                       CSV file. The script can also send an email to the user containing details 
-                      about new listings."
+                      about new listings that meet specified criteria."
               logos={[<AiFillGithub />, <SiPython />, <SiSelenium />]}
             />
 
             <Project
-              name="GamerPay Scraper"
-              link="https://github.com/abaheer/scrape-project"
-              desc="InnerPeace was developed by in a group of 6 as a University Capstone project for our 
+              name="InnerPeace Mobile App"
+              link="https://www.canva.com/design/DAFwD91CLfI/lmNXpFmMLeZTPBqG4DvwyA/edit?utm_content=DAFwD91CLfI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              desc="InnerPeace was developed in a group of 6 as a University Capstone project for our 
                       client. InnerPeace is a cross platform mobile app developed using Flutter and Firebase. 
-                      It offers users many different interventions to encourage relaxation."
+                      It offers users many different interventions to encourage relaxation. We ended up winning the Capsone Community Impact Award for this project!"
               logos={[
                 <AiFillGithub />,
                 <RiFlutterFill />,
@@ -122,7 +128,7 @@ export default function Home() {
           </div>
         </section>
       </main>
-      <footer className="ml-6">@Baheer Ahmadzai</footer>
+      <footer className="ml-6">...</footer>
     </div>
   );
 }
