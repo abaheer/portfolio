@@ -102,7 +102,7 @@ export default function Home() {
 
             <Project
               name="InnerPeace Mobile App"
-              link="https://www.canva.com/design/DAFwD91CLfI/lmNXpFmMLeZTPBqG4DvwyA/edit?utm_content=DAFwD91CLfI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              link="https://www.capitalise.space/projects/6550cea11d6ecfc86ae8b0d6"
               desc="InnerPeace was developed in a group of 6 as a University Capstone project for our 
                       client. InnerPeace is a cross platform mobile app developed using Flutter and Firebase. 
                       It offers users many different interventions to encourage relaxation. We ended up winning the Capsone Community Impact Award for this project!"
