@@ -17,13 +17,14 @@ import { TbBrandNextjs } from "react-icons/tb";
 
 export default function Home() {
   return (
-    <div className="bg-gray-800">
+    <div className="bg-gray-800 text-white">
       <Head>
         <title>Baheer Ahmadzai</title>
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no, viewport-fit=cover"
         />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
       </Head>
 
       <main className="min-w-screen min-h-screen font-inter md:ml-20 md:mr-20 lg:mr-36 lg:ml:36 xl:mr-44 xl:ml-44 2xl:ml-80 2xl:mr-80">
@@ -51,7 +52,7 @@ export default function Home() {
               />
             </div>
 
-            <div className="flex justify-center text-5xl p-5 gap-5">
+            <div className="flex justify-center text-5xl p-5 gap-5 text-white">
               <a href="https://github.com/abaheer" target="_blank">
                 <AiFillGithub />
               </a>
