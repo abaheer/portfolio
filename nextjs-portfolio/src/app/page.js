@@ -48,7 +48,7 @@ export default function Home() {
                 alt="me"
                 width={300}
                 height={300}
-                className=" rounded-3xl  mt-2"
+                className=" rounded-3xl  mt-2 drop-shadow"
               />
             </div>
 
